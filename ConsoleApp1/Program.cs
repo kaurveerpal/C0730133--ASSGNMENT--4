@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace C0730067
+namespace C0730133
 {
     class Program
     {
@@ -23,7 +23,7 @@ namespace C0730067
         public void Run() { this.ReadTextFiles(); }
         public void ReadTextFiles()
         {
-            using (StreamReader file = new StreamReader(@"U:\Users\730067/beowulf.txt"))
+            using (StreamReader file = new StreamReader(@"U:\Users\730133/beowulf.txt"))
 
             {
                 int counter = 0;
